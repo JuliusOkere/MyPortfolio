@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Julius Okere</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Julius Okere</h1>
+            <p class="bio">
+                Hello, my name is Julius Okere, and I am a dedicated UI/UX designer with a passion for creating intuitive 
+                and aesthetically pleasing digital experiences. My journey in design has been driven by a commitment 
+                to understanding users' needs and transforming complex ideas into elegant, functional solutions.<br><br>
+
+                Over the years, I have had the opportunity to work on a variety of projects, each of which has enriched 
+                my perspective and sharpened my skills. My approach to design is deeply rooted in a balance between 
+                creativity and practicality—ensuring that every interface I create is not only visually appealing but also 
+                user-friendly and accessible.<br><br>
+
+                I am proficient in a range of design tools and technologies, which enables me to deliver high-quality work 
+                that meets the unique requirements of each project. I believe that collaboration and continuous learning 
+                are key to staying ahead in the fast-evolving field of design, and I am always eager to embrace new 
+                challenges that allow me to grow as a professional.<br><br>
+
+                This portfolio is a reflection of my dedication to design and my belief in the power of well-crafted user 
+                experiences. I hope it offers you a glimpse into my creative process and the passion I bring to every 
+                project I undertake.
+            </p>
+        </header>
+
+        <section class="portfolio">
+            <!-- Replace with your actual image paths -->
+            <img src=".\Images\Dashboard 1.png" alt="Design 1" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Dashboard 2.png" alt="Design 2" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Dashboard 3.png" alt="Design 3" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Font Detail 1.png" alt="Design 4" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Font Detail 2.png" alt="Design 5" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Font Detail 3.png" alt="Design 6" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Mobile View 1.png" alt="Design 7" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Mobile View 2.png" alt="Design 8" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Mobile View 3.png" alt="Design 9" class="portfolio-img" onclick="openModal(this)">
+            <img src=".\Images\Work Flow.png" alt="Design 10" class="portfolio-img" onclick="openModal(this)">
+        </section>
+    </div>
+
+    <!-- Modal structure -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
